@@ -1,0 +1,40 @@
+body{
+    font-family: Arial;
+  }
+  
+  h1{
+    text-align: center;
+  }
+
+  h2{
+    text-align: center;
+  }
+  
+  .point{
+    stroke-width: 0px;
+  }
+  
+  .row {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  
+  #col1 {
+    width: 33%;
+  }
+  
+  #col2 {
+    width: 33%;
+  }
+  
+  #col3 {
+    width: 33%;
+  }
+  
+  
+  .selected {
+    opacity: 1 !important; 
+    stroke: red;
+    stroke-width: 3px;
+  }
